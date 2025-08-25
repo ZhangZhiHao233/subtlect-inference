@@ -22,4 +22,17 @@ Step 4. (Inside the container)
 	4.1 cd subtlect-inference
 	4.2 bash run.sh
 ```
-##  1. Prepare Environment
+##  2. Prepare Files
+Directory structure:
+```
+.
+├─ Input/                 # DICOM series to process
+├─ Output/                # Output folder
+├─ Checkpoint/            # Model weights (.pth)
+├─ Configs				  # Config files
+	├─ config_lung.yaml
+	├─ config_abdomen.yaml
+	└─ config_head.yaml    
+├─ log   
+```
+Test cases and Model weights can be download from [Google drive]

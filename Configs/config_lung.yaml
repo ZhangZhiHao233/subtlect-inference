@@ -1,0 +1,17 @@
+version: "1.0.6"
+
+# Pipeline:
+#         +---------+       +-------------------+       +------------+       +---------------------+
+# LDCT -->| NAFNet  |-----> | Noise Input Mixing|-----> | Sharpening |-----> | Texture Input Mixing|-----> Denoised CT
+#   \                                ^                                            ^
+#    \______________________________/                                           /
+#     \______________________________________________________________________/
+
+# Image Denoising options
+noise_mix_ratio: 0        # Noise input mixing ratio
+sharpening_factor: 1.5        # Intensity of sharpening if enabled
+texture_mix_ratio: 0         # Texture input mixing ratio, only effective when sharpening_factor > 1
+
+# Inference options
+batch_size: 2                     # Number of slices processed in parallel during inference
+enable_fp16: true                # Whether to use mixed precision (FP16) during inference

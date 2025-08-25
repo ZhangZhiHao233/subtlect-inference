@@ -1,0 +1,77 @@
+2025-07-01 07:13:08,607 - INFO - 🚀 Starting SubtleCT Inference
+2025-07-01 07:13:08,607 - ERROR - ❌ [Weights] File not found: Checkpoint/20241030-ct2.pth
+2025-07-01 07:13:53,725 - INFO - 🚀 Starting SubtleCT Inference
+2025-07-01 07:13:53,725 - INFO - ✅ [Weights] Loaded from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:13:53,725 - INFO - ✅ [Input] Found input directory: Input/Test_case_Lung
+2025-07-01 07:13:53,726 - INFO - ✅ [Output] Created output directory: Output
+2025-07-01 07:13:53,726 - INFO - ✅ [Config] Loaded configuration file: Configs/config_lung.yaml
+2025-07-01 07:13:53,728 - INFO - ✅ YAML config check passed and values loaded into args.
+2025-07-01 07:13:55,844 - INFO - ✅ Model loaded successfully from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:13:55,845 - INFO - 🧠 Model structure: NAFNet with config: {'img_channel': 3, 'width': 64, 'enc_blk_nums': [2, 2, 4, 8], 'middle_blk_num': 12, 'dec_blk_nums': [2, 2, 2, 2]}
+2025-07-01 07:13:55,845 - INFO - 💻 Running on device: cuda
+2025-07-01 07:13:55,973 - INFO - 📂 Found 1 series in Input/Test_case_Lung/Low_Dose_Images
+2025-07-01 07:13:56,608 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.290573188111996224609135827512506 | Slices: 351
+2025-07-01 07:13:56,736 - INFO - 📂 Found 1 series in Input/Test_case_Lung/Full_Dose_Images
+2025-07-01 07:13:57,397 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.209025642610450817922674359193580 | Slices: 351
+2025-07-01 07:13:57,435 - INFO - 📦 Processing series | Path: Input/Test_case_Lung/Low_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.290573188111996224609135827512506 | Slices: 351
+2025-07-01 07:14:22,519 - INFO - 📦 Processing series | Path: Input/Test_case_Lung/Full_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.209025642610450817922674359193580 | Slices: 351
+2025-07-01 07:15:47,097 - INFO - 🚀 Starting SubtleCT Inference
+2025-07-01 07:15:47,098 - INFO - ✅ [Weights] Loaded from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:15:47,098 - INFO - ✅ [Input] Found input directory: Input/Test_case_Lung
+2025-07-01 07:15:47,098 - INFO - ✅ [Output] Using existing output directory: Output
+2025-07-01 07:15:47,098 - INFO - ✅ [Config] Loaded configuration file: Configs/config_lung.yaml
+2025-07-01 07:15:47,100 - INFO - ✅ YAML config check passed and values loaded into args.
+2025-07-01 07:15:49,257 - INFO - ✅ Model loaded successfully from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:15:49,257 - INFO - 🧠 Model structure: NAFNet with config: {'img_channel': 3, 'width': 64, 'enc_blk_nums': [2, 2, 4, 8], 'middle_blk_num': 12, 'dec_blk_nums': [2, 2, 2, 2]}
+2025-07-01 07:15:49,258 - INFO - 💻 Running on device: cuda
+2025-07-01 07:15:49,355 - INFO - 📂 Found 1 series in Input/Test_case_Lung/Low_Dose_Images
+2025-07-01 07:15:50,012 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.290573188111996224609135827512506 | Slices: 351
+2025-07-01 07:15:50,113 - INFO - 📂 Found 1 series in Input/Test_case_Lung/Full_Dose_Images
+2025-07-01 07:15:50,798 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.209025642610450817922674359193580 | Slices: 351
+2025-07-01 07:15:50,820 - INFO - 📦 Processing series | Path: Input/Test_case_Lung/Low_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.290573188111996224609135827512506 | Slices: 351
+2025-07-01 07:16:14,925 - INFO - 📦 Processing series | Path: Input/Test_case_Lung/Full_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.209025642610450817922674359193580 | Slices: 351
+2025-07-01 07:16:41,029 - INFO - 🚀 Starting SubtleCT Inference
+2025-07-01 07:16:41,030 - INFO - ✅ [Weights] Loaded from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:16:41,030 - INFO - ✅ [Input] Found input directory: Input/Test_case_Abdomen
+2025-07-01 07:16:41,030 - INFO - ✅ [Output] Using existing output directory: Output
+2025-07-01 07:16:41,030 - INFO - ✅ [Config] Loaded configuration file: Configs/config_abdomen.yaml
+2025-07-01 07:16:41,033 - INFO - ✅ YAML config check passed and values loaded into args.
+2025-07-01 07:16:43,188 - INFO - ✅ Model loaded successfully from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:16:43,189 - INFO - 🧠 Model structure: NAFNet with config: {'img_channel': 3, 'width': 64, 'enc_blk_nums': [2, 2, 4, 8], 'middle_blk_num': 12, 'dec_blk_nums': [2, 2, 2, 2]}
+2025-07-01 07:16:43,189 - INFO - 💻 Running on device: cuda
+2025-07-01 07:16:44,166 - INFO - 📂 Found 1 series in Input/Test_case_Abdomen/Low_Dose_Images
+2025-07-01 07:16:44,365 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.410482642711306521000220038841625 | Slices: 99
+2025-07-01 07:16:44,393 - INFO - 📂 Found 1 series in Input/Test_case_Abdomen/Full_Dose_Images
+2025-07-01 07:16:44,590 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.214090270911387329406954144463186 | Slices: 99
+2025-07-01 07:16:44,600 - INFO - 📦 Processing series | Path: Input/Test_case_Abdomen/Low_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.410482642711306521000220038841625 | Slices: 99
+2025-07-01 07:16:51,608 - INFO - 📦 Processing series | Path: Input/Test_case_Abdomen/Full_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.214090270911387329406954144463186 | Slices: 99
+2025-07-01 07:17:00,309 - INFO - 🚀 Starting SubtleCT Inference
+2025-07-01 07:17:00,310 - INFO - ✅ [Weights] Loaded from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:17:00,310 - INFO - ✅ [Input] Found input directory: Input/Test_case_Head
+2025-07-01 07:17:00,310 - INFO - ✅ [Output] Using existing output directory: Output
+2025-07-01 07:17:00,310 - INFO - ✅ [Config] Loaded configuration file: Configs/config_head.yaml
+2025-07-01 07:17:00,312 - INFO - ✅ YAML config check passed and values loaded into args.
+2025-07-01 07:17:02,434 - INFO - ✅ Model loaded successfully from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:17:02,435 - INFO - 🧠 Model structure: NAFNet with config: {'img_channel': 3, 'width': 64, 'enc_blk_nums': [2, 2, 4, 8], 'middle_blk_num': 12, 'dec_blk_nums': [2, 2, 2, 2]}
+2025-07-01 07:17:02,436 - INFO - 💻 Running on device: cuda
+2025-07-01 07:17:02,452 - INFO - 📂 Found 1 series in Input/Test_case_Head/Low_Dose_Images
+2025-07-01 07:17:02,501 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.937781683110524250231019715811030 | Slices: 34
+2025-07-01 07:17:02,512 - INFO - 📂 Found 1 series in Input/Test_case_Head/Full_Dose_Images
+2025-07-01 07:17:02,560 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.337859476012029935940882948260263 | Slices: 34
+2025-07-01 07:17:02,560 - INFO - 📦 Processing series | Path: Input/Test_case_Head/Low_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.937781683110524250231019715811030 | Slices: 34
+2025-07-01 07:17:05,291 - INFO - 📦 Processing series | Path: Input/Test_case_Head/Full_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.337859476012029935940882948260263 | Slices: 34
+2025-07-01 07:26:59,051 - INFO - 🚀 Starting SubtleCT Inference
+2025-07-01 07:26:59,052 - INFO - ✅ [Weights] Loaded from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:26:59,052 - INFO - ✅ [Input] Found input directory: Input/Test_case_Head
+2025-07-01 07:26:59,052 - INFO - ✅ [Output] Using existing output directory: Output
+2025-07-01 07:26:59,052 - INFO - ✅ [Config] Loaded configuration file: Configs/config_head.yaml
+2025-07-01 07:26:59,054 - INFO - ✅ YAML config check passed and values loaded into args.
+2025-07-01 07:27:01,150 - INFO - ✅ Model loaded successfully from: Checkpoint/20241030-ct2.pth
+2025-07-01 07:27:01,150 - INFO - 🧠 Model structure: NAFNet with config: {'img_channel': 3, 'width': 64, 'enc_blk_nums': [2, 2, 4, 8], 'middle_blk_num': 12, 'dec_blk_nums': [2, 2, 2, 2]}
+2025-07-01 07:27:01,150 - INFO - 💻 Running on device: cuda
+2025-07-01 07:27:01,164 - INFO - 📂 Found 1 series in Input/Test_case_Head/Low_Dose_Images
+2025-07-01 07:27:01,217 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.937781683110524250231019715811030 | Slices: 34
+2025-07-01 07:27:01,229 - INFO - 📂 Found 1 series in Input/Test_case_Head/Full_Dose_Images
+2025-07-01 07:27:01,282 - INFO -   ✅ Series 1: UID=1.2.840.113713.4.100.1.2.337859476012029935940882948260263 | Slices: 34
+2025-07-01 07:27:01,282 - INFO - 📦 Processing series | Path: Input/Test_case_Head/Low_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.937781683110524250231019715811030 | Slices: 34
+2025-07-01 07:27:04,059 - INFO - 📦 Processing series | Path: Input/Test_case_Head/Full_Dose_Images | Index: 1 | UID: 1.2.840.113713.4.100.1.2.337859476012029935940882948260263 | Slices: 34

@@ -10,4 +10,4 @@ SimpleITK==2.3.1
 torch==2.3.1
 ```
 
-Alternatively, you can build the environment directly using the provided Dockerfile.
+Alternatively, you can build the environment directly using the provided [Dockerfile](https://github.com/ZhangZhiHao233/subtlect-inference/blob/main/Dockerfile)

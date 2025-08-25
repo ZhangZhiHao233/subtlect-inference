@@ -35,7 +35,7 @@ Directory structure:
 	└─ config_head.yaml    
 ├─ log   
 ```
-Test cases and model weights can be downloaded from [Google Drive].
+Test cases and model weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/12d-gMxLfGVXxOInf_F_YIkzrq7_vjqof?usp=sharing).
 
 ##  3. Run Inference
 You can either run directly with Python:

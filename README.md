@@ -35,4 +35,22 @@ Directory structure:
 	└─ config_head.yaml    
 ├─ log   
 ```
-Test cases and Model weights can be download from [Google drive]
+Test cases and model weights can be downloaded from [Google Drive].
+
+##  3. Run Inference
+You can either run directly with Python:
+```
+python infer.py \
+  --weights_path checkpoint/20241030-ct2.pth \
+  --Input_path Input \
+  --Output_path Output \
+  --Config_path config_head.yaml
+```
+Or simply run the shell script:
+```
+bash run.sh
+```
+
+##  4. Output
+Denoised DICOM series will be saved under Output/ with updated SeriesDescription tags.
+Logs are written to log/inference.log.

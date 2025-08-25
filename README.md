@@ -1,6 +1,6 @@
 # SubtleCT DNE Inference
 
-##  Prepare Environment
+##  1. Prepare Environment
 Install dependencies:
 Only a few core packages are required, including pydicom, SimpleITK, and PyTorch:
 
@@ -11,3 +11,15 @@ torch==2.3.1
 ```
 
 Alternatively, you can build the environment directly using the provided [Dockerfile](https://github.com/ZhangZhiHao233/subtlect-inference/blob/main/Dockerfile)
+
+Steps to build the final image based on subtle/base_cu12_ubuntu20_py310:latest using the Dockerfile.
+
+```
+	Step 1. Place the code folder SubtleCT_DNE_Infer_v2 and the Dockerfile in the same directory
+	Step 2. Run: docker build -t subtlect_infer:v2 .
+	Step 3. Run the container with: docker run --gpus device=0 -it subtlect_infer:v2
+	Step 4. (Inside the container)
+		4.1 cd SubtleCT_DNE_Infer_v2
+		4.2 bash run.sh
+```
+##  1. Prepare Environment
